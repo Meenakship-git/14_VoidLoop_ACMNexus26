@@ -1,0 +1,1 @@
+# AlertWave FastAPI Application
