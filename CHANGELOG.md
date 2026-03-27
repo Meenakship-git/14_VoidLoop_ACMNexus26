@@ -45,3 +45,19 @@
 - Push was rejected once due to non-fast-forward and required rebase
 - Rebase produced a README conflict that was resolved manually
 - Push was blocked by GitHub email privacy until noreply email was used
+
+## 10:52
+
+### Features Added
+- Created ML preprocessing module with CSV loading, required-column validation, missing-value handling, and normalization fields
+- Implemented rule-based risk scoring module for landslide, flood, and heat risks with classification, emoji mapping, and recommendations
+- Added region-level APIs (`get_all_region_risks`, `get_region_risk`) and a testable main block in risk model
+- Pushed all ML engine updates to the `ml_engine` branch
+
+### Files Modified
+- alertwave/ml_engine/preprocessing.py
+- alertwave/ml_engine/risk_model.py
+- CHANGELOG.md
+
+### Issues Faced
+- No code errors found after implementation
