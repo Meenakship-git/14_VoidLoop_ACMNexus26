@@ -1,40 +1,221 @@
-# AlertWave Backend
-# Production-ready FastAPI backend for AlertWave project
+# 🚀 Welcome to NEXUS
 
-## Requirements
-- Python 3.8+
-- FastAPI
-- Uvicorn
+### Conducted by | CLIQUE x ACM MITS |
 
-## Installation
-1. Clone the repository
-2. Create a virtual environment: `python -m venv venv`
-3. Activate the virtual environment: `venv\Scripts\activate` (Windows)
-4. Install dependencies: `pip install -r requirements.txt`
+### 📅 March 27 & 28
 
-## Running the Application
-Run the application with: `uvicorn app.main:app --reload`
+### 📍 Muthoot Institute of Technology and Science
 
-The API will be available at http://127.0.0.1:8000
+<p align="center">
+  <img src="template_acm.png" width="500"/>
+  <img src="template_clique.png" width="250"/>
+</p>
 
-## API Endpoints
-- GET /health - Health check endpoint
-- GET /risk - Get risk information
-- POST /simulate - Simulate an action
+---
 
-## Project Structure
+### 📖 Description
+
+A **16-hour hackathon** across various domains where innovation meets execution. Build, collaborate, and push your limits.
+
+---
+
+## 🧠 Project Details (To be filled by participants)
+
+```md
+### 🏷️ Project Name:
+AlertWave : Wayanad Climate Intelligence & Risk Monitoring
+
+### 🎯 Chosen Domain:
+Climate Intelligence
+
+### ❗ Problem Statement:
+Wayanad faces frequent climate-related disasters such as landslides, floods, and extreme rainfall. There are less unified system that provides early warnings, risk visualization, and actionable insights for residents, tourists, and authorities.
+
+### 💡 Solution:
+AlertWave solves this by building a unified climate intelligence platform for Wayanad that combines real-time weather/environment data with hazard-risk modeling and role-based decision support.
+---
+
+## 🎯 Hackathon Domains
+
+Participants must choose **one** of the following domains:
+
+1️⃣ Digital Asset Protection
+2️⃣ Smart Supply Chains
+3️⃣ Digital Health & Predictive Care
+4️⃣ Climate Intelligence
+5️⃣ Cybersecurity & Threat Intelligence
+
+---
+
+## ⚙️ Hackathon Workflow & Rules
+
+To ensure fairness and transparency, we have designed a structured development and tracking system.
+
+---
+
+### 🔗 GitHub Template
+
+👉 **Template Repo:** `{link}`
+
+* All teams must **fork this repository**
+* Fork name must follow:
+
 ```
-app/
-├── main.py          # Main FastAPI application
-├── routes/          # API route handlers
-│   ├── __init__.py
-│   ├── health.py
-│   ├── risk.py
-│   └── simulate.py
-├── services/        # Business logic services
-├── models/          # Data models
-└── utils/           # Utility functions
+<TeamId>_<TeamName>_ACMNexus26
 ```
 
-## CORS
-CORS is enabled for frontend connections from any origin.
+* Example:
+
+```
+12_CodeWarriors_ACMNexus26
+```
+
+* You may rename the repository **after the event ends**
+
+---
+
+
+---
+
+## 👥 Participation Rules
+
+* Team Size: **2–4 members**
+* **Pre-created projects are strictly not allowed**
+* All work must be done **during the hackathon timeframe**
+* Only registered team members must participate
+* Do **not attack or interfere** with college infrastructure/network
+* Follow all instructions from the organizing team
+
+---
+
+## 📁 Repository Structure
+
+
+Repository must not be private. The template Repository includes:
+
+```
+AGENTS.md
+README.md
+CHANGELOG.md
+/progress/
+```
+
+---
+
+## ⏱️ Hourly Progress Requirements
+
+Every hour, teams must:
+
+* Make **at least one commit**
+* Add **at least one progress update** inside `/progress/`
+
+Progress can include:
+
+* Screenshots
+* Screen recordings
+* Dataset snapshots
+* Any meaningful proof of work
+
+### 📂 Progress Format
+
+```
+/progress
+1.png
+2.png
+3.png
+```
+
+* Files must be **numbered sequentially**
+* Each file should reflect **actual development progress**
+
+---
+
+## 📝 Changelog Rules (VERY IMPORTANT)
+
+Every commit must be reflected in `CHANGELOG.md`.
+
+You can:
+
+* Update it per commit, OR
+* Update it periodically (but must be complete at the end)
+
+---
+
+### 📌 Changelog Format
+
+```md
+## HH:MM
+
+### Features Added
+- Added login functionality
+- Implemented API integration
+
+### Files Modified
+- auth.js
+- login.jsx
+
+### Issues Faced
+- Firebase auth errors
+- API timeout issues
+```
+
+---
+
+💡 Tip:
+Instructions are already included in `AGENTS.md`.
+You can simply prompt it to **"CREATE CHANGELOG"** to follow the format.
+
+---
+
+## 📖 Documentation
+
+We have provided:
+
+* Examples
+* Guidelines
+
+Inside:
+
+* `AGENTS.md`
+* `README.md`
+
+Please follow them strictly.
+
+---
+
+## 🔍 Monitoring & Verification
+
+* Random checks will be conducted during the hackathon
+* Organizers may:
+
+  * Inspect commit history
+  * Review changelog consistency
+  * Verify progress evidence
+
+---
+
+## 👨‍💻 Team Collaboration Rules
+
+* All members must be added as **collaborators**
+* By the end of the hackathon:
+
+  * **Each member must have at least one commit**
+
+---
+
+## ⚠️ Disqualification Criteria
+
+* Use of **pre-built / pre-developed projects**
+* Fake or manipulated commit history
+* Missing hourly commits or progress updates
+* Incomplete or inconsistent changelog
+
+---
+
+## 🏁 Final Note
+
+Focus on building, learning, and enjoying the experience.
+
+---
+
+🔥 **Build. Break. Innovate. See you at NEXUS.**
