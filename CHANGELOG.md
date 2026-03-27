@@ -1,3 +1,24 @@
+## 20:30
+
+### Features Added
+- Created WeatherRiskDataService for database operations (insert, query history, statistics)
+- Implemented ClimateRiskPredictor with rule-based risk assessment using temperature, humidity, and rainfall thresholds
+- Updated /risk endpoint to use new predictor and store data in database
+- Updated /simulate endpoint to use new predictor and store simulation data
+- Added /risk/history endpoint for retrieving historical weather and risk data
+- Added /risk/statistics endpoint for risk level statistics over time periods
+- Created comprehensive test script for risk predictor validation
+
+### Files Modified
+- app/services/weather_risk_data_service.py (New database service)
+- app/utils/risk_predictor.py (New risk prediction model)
+- app/routes/risk.py (Updated to use new predictor and added history/statistics endpoints)
+- app/routes/simulate.py (Updated to use new predictor and store simulation data)
+- test_risk_predictor.py (New test script for validation)
+
+### Issues Faced
+- None - all components integrated smoothly
+
 ## 20:00
 
 ### Features Added
